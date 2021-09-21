@@ -13,6 +13,8 @@ then they can sell their share to someone else who wants to move in.
 
 The contract will have an 'attractor' final state defined by the ratio/composition of fractional ownership decided on by the community.
 It will also have an initial state, and a current state that will constantly change until reaching the attractor or something else changes.
+Every time a payment is made the global state of this graph will change. Each node in the graph has the user ID, the amount of fractional share their entitled 
+to, and their current share. Perhaps there can even be indicators and actions taken if payments are late, or is acting maliciously.
 
 The identities of the members, their stake in the community, will all have to be set initially.
 The workflow should allow for situations where the members all form an LLC to purchase the property or if a single member or couple holds
@@ -24,3 +26,7 @@ friends and family in perhaps a consortium blockchain to help them through a for
 
 Another exciting possibility would be to have the option to leverage decentralized finance for the same purpose. From a personal perspective I would
 prefer to prioritize aqcuring debt from my personal network before using public DeFi, but it could certainly help close the gap.
+
+// Maybe there can be an address that represnts the group collectively, but that they all send payments to so that this can send the payment to the bank
+//for example.
+
